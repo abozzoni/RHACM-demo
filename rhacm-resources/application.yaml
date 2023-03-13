@@ -34,7 +34,7 @@ metadata:
   labels:
     app: webserver-app
   annotations:
-    apps.open-cluster-management.io/github-path: application-resources
+    apps.open-cluster-management.io/github-path: /application-resources
 spec:
   channel: webserver-acm/webserver-app
   placement:
